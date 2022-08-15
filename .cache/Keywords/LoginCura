@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "7DBCB06FBBB876F07A0356FB075490AF",
+  "keywordClasses": [
+    {
+      "name": "LoginCura",
+      "keywordMethods": [
+        {
+          "name": "ForLoginCura",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

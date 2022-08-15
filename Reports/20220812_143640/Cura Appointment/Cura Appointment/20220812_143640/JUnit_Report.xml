@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cura Appointment" time="32.943" tests="2" failures="0" errors="0">
+   <testsuite name="Cura Appointment" tests="2" failures="0" errors="0" time="32.943" skipped="0" timestamp="2022-08-12 14:36:51" hostname="095770 - ndm-nindy.bfi.co.id" id="Test Suites/Cura Appointment/Cura Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640"/>
+         <property name="logFiles" value="C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289819061.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289822391.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289823751.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289826626.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289828656.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289834361.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289837503.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289839354.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289842153.png, C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289843639.png"/>
+         <property name="hostName" value="095770 - ndm-nindy.bfi.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.81"/>
+         <property name="hostAddress" value="172.16.26.174"/>
+         <property name="sessionId" value="32635358ce022a7087be3ffb38365a4e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cura Appointment/Cura Create Appointment" time="17.4" classname="Test Cases/Cura Appointment/Cura Create Appointment" status="PASSED">
+         <system-out><![CDATA[2022-08-12 14:36:52 - [TEST_CASE][PASSED] - Test Cases/Cura Appointment/Cura Create Appointment: Test Cases/Cura Appointment/Cura Create Appointment
+
+2022-08-12 14:36:53 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-08-12 14:36:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-12 14:36:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-12 14:36:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-08-12 14:36:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-12 14:36:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-12 14:36:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:36:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289819061.png]]
+
+2022-08-12 14:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Button_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/Button_Make Appointment' is clicked on
+
+2022-08-12 14:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Button_Make Appointment' is clicked on
+
+2022-08-12 14:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Username"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Username'
+
+2022-08-12 14:37:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Username'
+
+2022-08-12 14:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Password'
+
+2022-08-12 14:37:02 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Password'
+
+2022-08-12 14:37:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289822391.png]]
+
+2022-08-12 14:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-12 14:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-12 14:37:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289823751.png]]
+
+2022-08-12 14:37:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/Select_Healtcare Center"), HealthCareCenter, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Select_Healtcare Center' 
+
+2022-08-12 14:37:04 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Select_Healtcare Center' 
+
+2022-08-12 14:37:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Date"), DateAppointment): Text '22/08/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Date'
+
+2022-08-12 14:37:05 - [MESSAGE][PASSED] - Text '22/08/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Date'
+
+2022-08-12 14:37:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Text_Comment"), Comment): Text '12' is set on object 'Object Repository/Page_CURA Healthcare Service/Text_Comment'
+
+2022-08-12 14:37:06 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_CURA Healthcare Service/Text_Comment'
+
+2022-08-12 14:37:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289826626.png]]
+
+2022-08-12 14:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-12 14:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-12 14:37:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CURA Healthcare Service/Label_Appointment has been booked")): Object 'Object Repository/Page_CURA Healthcare Service/Label_Appointment has been booked' is visible
+
+2022-08-12 14:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/Label_Appointment has been booked' is visible
+
+2022-08-12 14:37:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289828656.png]]
+
+2022-08-12 14:37:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-12 14:37:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura Appointment/Cura Create Appointment" time="14.884" classname="Test Cases/Cura Appointment/Cura Create Appointment" status="PASSED">
+         <system-out><![CDATA[2022-08-12 14:37:09 - [TEST_CASE][PASSED] - Test Cases/Cura Appointment/Cura Create Appointment: Test Cases/Cura Appointment/Cura Create Appointment
+
+2022-08-12 14:37:09 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-08-12 14:37:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-12 14:37:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-12 14:37:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2022-08-12 14:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-12 14:37:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-12 14:37:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289834361.png]]
+
+2022-08-12 14:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/Button_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/Button_Make Appointment' is clicked on
+
+2022-08-12 14:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Button_Make Appointment' is clicked on
+
+2022-08-12 14:37:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Username"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Username'
+
+2022-08-12 14:37:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Username'
+
+2022-08-12 14:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Password'
+
+2022-08-12 14:37:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Password'
+
+2022-08-12 14:37:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289837503.png]]
+
+2022-08-12 14:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-12 14:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-08-12 14:37:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289839354.png]]
+
+2022-08-12 14:37:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/Select_Healtcare Center"), HealthCareCenter, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Select_Healtcare Center' 
+
+2022-08-12 14:37:20 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Select_Healtcare Center' 
+
+2022-08-12 14:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Input_Date"), DateAppointment): Text '25/08/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Date'
+
+2022-08-12 14:37:21 - [MESSAGE][PASSED] - Text '25/08/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/Input_Date'
+
+2022-08-12 14:37:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Text_Comment"), Comment): Text '12' is set on object 'Object Repository/Page_CURA Healthcare Service/Text_Comment'
+
+2022-08-12 14:37:21 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_CURA Healthcare Service/Text_Comment'
+
+2022-08-12 14:37:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289842153.png]]
+
+2022-08-12 14:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-12 14:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-08-12 14:37:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CURA Healthcare Service/Label_Appointment has been booked")): Object 'Object Repository/Page_CURA Healthcare Service/Label_Appointment has been booked' is visible
+
+2022-08-12 14:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/Label_Appointment has been booked' is visible
+
+2022-08-12 14:37:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-08-12 14:37:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\095770\\git\\CuraTest\\Reports\\20220812_143640\\Cura Appointment\\Cura Appointment\\20220812_143640\\1660289843639.png]]
+
+2022-08-12 14:37:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-12 14:37:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-12 14:36:51 - [TEST_SUITE][PASSED] - Cura Appointment: Test Cases/Cura Appointment/Cura Create Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

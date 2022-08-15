@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cura Create Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92c74cd1-16bf-4e65-8620-660c1167c04f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6f573d9b-da20-48bd-a040-b68a32e8e7ea</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Cura Test Data Appointment/Cura Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6f573d9b-da20-48bd-a040-b68a32e8e7ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>HealthCareCenter</value>
+      <variableId>ac3a5fa8-d3f6-4382-adfb-47cd9a3bb79b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6f573d9b-da20-48bd-a040-b68a32e8e7ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>DateAppointment</value>
+      <variableId>9e8f77a5-1ff2-4cda-bb67-d33fcd53c816</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6f573d9b-da20-48bd-a040-b68a32e8e7ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comment</value>
+      <variableId>e55beaa6-f122-43c0-975f-2599c164bf5d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac3a5fa8-d3f6-4382-adfb-47cd9a3bb79b</id>
+      <masked>false</masked>
+      <name>HealthCareCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e8f77a5-1ff2-4cda-bb67-d33fcd53c816</id>
+      <masked>false</masked>
+      <name>DateAppointment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e55beaa6-f122-43c0-975f-2599c164bf5d</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>
